@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// POST:  site.com/sample-webhook-endpoint
+Route::webhooks('sample-webhook-endpoint');
